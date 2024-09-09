@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: Archive
 menu:
   main:
     parent: blog
