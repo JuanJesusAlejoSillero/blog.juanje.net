@@ -1,4 +1,4 @@
-# sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
+sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
 
 mainSections:
   - blog
@@ -7,19 +7,19 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: A catch-all website for sharing my learnings and discoveries
+keywords: Juanje's, Blog
 # images:
 #   - site-feature-image.jpg
 
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
-# logo: images/logo.png # Logo image. Default to images/logo.webp.
-# logo: false # Disable Logo
-brand: HBS
+# logo: https://github.com/JuanJesusAlejoSillero.png # Logo image. Default to images/logo.webp.
+logo: false # Disable Logo
+brand: Juanje's Blog
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: blue # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -54,7 +54,7 @@ googleAdsense:
 # socialShare: false # disable social network sharing
 # searchBar: false # disable search-bar
 
-# poweredBy: false # Whether to show powered by.
+poweredBy: true # Whether to show powered by.
 
 # readingTime: false # Whether to display the reading time.
 # postDate: false # Whether to display the post date in the post meta section.
@@ -80,7 +80,7 @@ customJS:
 
 tocWordCount: 1 # TOC is displayed only if the post's word count exceeds this value.
 
-titleCase: true # Capitalized title.
+titleCase: false # Capitalized title.
 
 viewer: true # Image Viewer
 
@@ -88,7 +88,7 @@ viewer: true # Image Viewer
 # rss: home # link the RSS button to homepage all the times.
 
 sidebar:
-  fixed: true
+  # fixed: true
   # archives: true # Enable archives widget
   # taxonomiesToggle: false # Disable taxonomy toggle
   # categories: true # Enable categories widget
@@ -102,7 +102,7 @@ sidebar:
 
 codeBlock:
   # maxLines: 8
-  lineNos: true # true/false represents that show/hide the line numbers by default.
+  lineNos: false # true/false represents that show/hide the line numbers by default.
 
 post:
   # excerpt: description
@@ -171,11 +171,11 @@ creativeCommons:
   #moderation: false # Same as Staticman's moderation.
 
 # See https://giscus.app
-giscus:
-  repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
-  repoId: "R_kgDOHJi95g" # required.
-  category: "General" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+#giscus:
+  #repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
+  #repoId: "R_kgDOHJi95g" # required.
+  #category: "General" # required.
+  #categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -206,8 +206,8 @@ search:
   # debug: true
 
 reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+  #alipay: images/reward/alipay.png
+  #wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -228,7 +228,7 @@ fontSize:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    short_name: JB
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -242,85 +242,91 @@ pwa:
     #   sizes: 144x144
     #   src: /images/icons/icon-144x144.png
 
-contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+#contact:
+  #endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
     # siteKey: ""
 
-repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
-  branch: main
+#repo:
+  #url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  #branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    email: juanjesusalejosillero@gmail.com
+    linkedin: JuanJesusAlejoSillero/?locale=en_US
+    github: JuanJesusAlejoSillero
+    telegram: JuanJesusAlejoSillero
+    #patreon: razonyang
+    #paypal: razonyang
 
-docs:
-  nav:
-    expand: false # Expand docs navigation.
-    reduceFontSize: true # Reduce font size of children navigation.
+#docs:
+  # nav:
+    # expand: true # Expand docs navigations.
+    # reduceFontSize: true # Reduce font size of children navigation.
 
 #feeds:
   # content: true
 
 social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
-  email: user@domain.tld
-  facebook: yourfacebookusername
-  github: razonyang/hugo-theme-bootstrap
-  gitlab: yourgitlabusername
-  linkedin: yourlinkedinusername
-  xing: yourxingusername
-  stackoverflow: yourstackoverflowuserid
-  twitter: yourtwitterusername
-  weibo: yourweibousername
-  zhihu: yourzhihuusername
-  instagram: yourinstagramusername
-  quora: yourquorausername
-  tumblr: yourtumblrusername
-  reddit: yourredditusername
-  telegram: yourtelegramusername
-  qq: yourqqnumber
-  dockerhub: yourdockerhubusername
-  bitbucket: yourbitbucketworkspaceid
-  kaggle: yourkaggleusername
-  medium: yourmediumusername # Medium username or custom domain(e.g. https://custom.domain.tld).
-  lastfm: yourlastfmusername
-  bilibili: yourbilibiliuserid
-  youtube: youryoutubechannelid
-  discord: yourdiscordinvitecode
-  discourse: https://yourforum.tld
-  facebookgroup: yourfacebookgroupname
-  tiktok: yourtiktokusername
-  pinterest: yourpinterestusername
-  mastodon: yourmastodonusername
-  liberapay: yourliberapayaccount
-  paypal: razonyang
-  patreon: razonyang
-  tipeee: yourtipeeeaccount-fr
+  email: juanjesusalejosillero@gmail.com
+  #facebook: yourfacebookusername
+  linkedin: JuanJesusAlejoSillero/?locale=en_US
+  github: JuanJesusAlejoSillero
+  #gitlab: JuanJesusAlejoSillero
+  #xing: yourxingusername
+  #stackoverflow: yourstackoverflowuserid
+  #twitter: yourtwitterusername
+  #weibo: yourweibousername
+  #zhihu: yourzhihuusername
+  #instagram: yourinstagramusername
+  #quora: yourquorausername
+  #tumblr: yourtumblrusername
+  #reddit: yourredditusername
+  telegram: JuanJesusAlejoSillero
+  #qq: yourqqnumber
+  #dockerhub: yourdockerhubusername
+  #bitbucket: yourbitbucketworkspaceid
+  #kaggle: yourkaggleusername
+  #medium: yourmediumusername # Medium username or custom domain(e.g. https://custom.domain.tld).
+  #lastfm: yourlastfmusername
+  #bilibili: yourbilibiliuserid
+  #youtube: youryoutubechannelid
+  #discord: yourdiscordinvitecode
+  #discourse: https://yourforum.tld
+  #facebookgroup: yourfacebookgroupname
+  #tiktok: yourtiktokusername
+  #pinterest: yourpinterestusername
+  #mastodon: yourmastodonusername
+  #liberapay: yourliberapayaccount
+  #paypal: razonyang
+  #patreon: razonyang
+  #tipeee: yourtipeeeaccount-fr
+  #website: https://hub.juanje.net
 
 author:
-  name: Razon Yang
-  # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-  bio: 'Gopher, PHPer, Full Stack Engineer.'
-  company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
-  location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+  name: Juan Jesús Alejo Sillero
+  avatar: https://github.com/JuanJesusAlejoSillero.png # Avatar image. Default to "images/profile.webp".
+  bio: '🐧 Linux SysAdmin & DevOps 🚀 // Tech enthusiast // 🇬🇧 Open to talk'
+  #company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+  location: Sevilla, Andalucía, España # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
   params: {
     # layout: compact
   }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    email: razonyang@gmail.com
-    github: razonyang/hugo-theme-bootstrap
-    twitter: razonyang
-    patreon: razonyang
-    paypal: razonyang
-    rss: "" # Remove RSS
+    email: juanjesusalejosillero@gmail.com
+    linkedin: JuanJesusAlejoSillero/?locale=en_US
+    github: JuanJesusAlejoSillero
+    telegram: JuanJesusAlejoSillero
+  #  twitter: razonyang
+  #  patreon: razonyang
+  #  paypal: razonyang
+  #  rss: "" # Uncomment to remove RSS
