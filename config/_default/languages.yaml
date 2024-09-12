@@ -1,8 +1,23 @@
+es:
+  languageName: Español
+  title: Blog de Juanje
+  weight: 1
+  params:
+    brand: Blog de Juanje
+#    description: Un cajón de sastre en el que compartir mis aprendizajes y descubrimientos
+    keywords: Juanje, Blog
+
 en:
   languageName: English
-  weight: 1
+  title: Juanje's Blog
+  weight: 2
+  params:
+    brand: Juanje's Blog
+#    description: A catch-all website for sharing my learnings and discoveries
+    keywords: Juanje's, Blog
 
 zh-hans:
+  disabled: true
   languageName: 简体中文
   weight: 4
   params:
