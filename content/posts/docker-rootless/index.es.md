@@ -17,13 +17,13 @@ tags: ["CI-CD", "Docker", "Rootless", "Docker Compose", "Linux"]
 images: ["docker-rootless/Portada.png"]
 ---
 
-Hace casi un año publiqué [un post](https://blog.juanje.net/posts/debian-docker/) sobre la instalación de Docker y Docker Compose en el que utilizaba las versiones disponibles en los repositorios de Debian.
+Hace casi un año publiqué un post sobre la instalación de Docker y Docker Compose en el que utilizaba las versiones disponibles en los repositorios de Debian.
 
-En esta ocasión, describiré la forma correcta de instalar Docker y Docker Compose en Debian según su [documentación oficial](https://docs.docker.com/engine/install/debian/).
+En esta ocasión, describiré la forma correcta de instalar Docker y Docker Compose en Debian según su documentación oficial.
 
 Además, cubriré la configuración del modo *rootless* para que los contenedores puedan ser ejecutados sin privilegios de `root`.
 
-Aquellos que no tengáis Debian, podéis consultar la [documentación oficial](https://docs.docker.com/engine/install/) y seguir las instrucciones para otros sistemas.
+Aquellos que no tengáis Debian, podéis consultar la documentación de Docker Engine y seguir las instrucciones para otros sistemas.
 
 <!--more-->
 
@@ -51,7 +51,7 @@ Aquellos que no tengáis Debian, podéis consultar la [documentación oficial](h
 > for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do apt remove $pkg; done
 > ```
 
-En la documentación oficial utilizan `sudo` para ejecutar los siguientes comandos, yo lo haré directamente como `root` (mediante `su -`) ya que no tengo `sudo` instalado en mis sistemas, pero puedes usar la opción que prefieras.
+En la [documentación oficial](https://docs.docker.com/engine/install/debian/) utilizan `sudo` para ejecutar los siguientes comandos, yo lo haré directamente como `root` (mediante `su -`) ya que no tengo `sudo` instalado en mis sistemas, pero puedes usar la opción que prefieras.
 
 1. Actualizamos la lista de paquetes de los repositorios:
 
