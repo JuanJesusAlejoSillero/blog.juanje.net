@@ -12,7 +12,7 @@ pinned: false
 carousel: true
 readingTime: true
 series:
-categories: ["DevOps", "Guías", "Sistemas", "Serverless"]
+categories: ["DevOps", "Guides", "Systems", "Serverless"]
 tags: ["AWS", "CI-CD", "Docker", "GitHub Actions", "GitOps", "Hugo", "Terraform"]
 images: ["memoria-pi/Portada.png"]
 ---
