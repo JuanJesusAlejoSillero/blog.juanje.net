@@ -17,13 +17,13 @@ tags: ["CI-CD", "Docker", "Rootless", "Docker Compose", "Linux"]
 images: ["docker-rootless/Portada.png"]
 ---
 
-Hace casi un año publiqué un post sobre la instalación de Docker y Docker Compose en el que utilizaba las versiones disponibles en los repositorios de Debian.
+Hace casi un año publiqué [un post](https://blog.juanje.net/posts/debian-docker/) sobre la instalación de Docker y Docker Compose en el que utilizaba las versiones disponibles en los repositorios de Debian.
 
-En esta ocasión, describiré la forma correcta de instalar Docker y Docker Compose en Debian según su documentación oficial.
+En esta ocasión, describiré la forma correcta de instalar Docker y Docker Compose en Debian según su [documentación oficial](https://docs.docker.com/engine/install/debian/).
 
 Además, cubriré la configuración del modo *rootless* para que los contenedores puedan ser ejecutados sin privilegios de `root`.
 
-Aquellos que no tengáis Debian, podéis consultar la documentación de Docker Engine y seguir las instrucciones para otros sistemas.
+Aquellos que no tengáis Debian, podéis consultar la [documentación de Docker Engine](https://docs.docker.com/engine/install/) y seguir las instrucciones para otros sistemas.
 
 <!--more-->
 
